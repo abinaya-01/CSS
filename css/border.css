@@ -1,0 +1,18 @@
+h1,p{
+    border:double 3px rgb(0, 213, 255);
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-sizing: border-box;
+    
+}
+li{
+    list-style-type:none;
+}
+li::before{
+    content: "🐣";
+    border: solid 2px black;
+    list-style-position:inside;
+}

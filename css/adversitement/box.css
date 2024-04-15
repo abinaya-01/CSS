@@ -1,0 +1,53 @@
+#grey{
+    width: 200px;
+    height: 200px;
+    background-color:grey;
+    position: relative;
+    top:-350px;
+    left:10px;
+    text-align:center;
+    font-size:xx-large;
+    color: aliceblue;
+    z-index: 0;
+    
+}
+#blue{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    background-color: blue;
+    text-align: center;
+    font-size:xx-large;
+    color: aliceblue; 
+    z-index: 2;  
+    
+}
+
+#black{
+    width: 180px;
+    height: 110px;
+    background-color: rgb(19, 19, 20);
+    position: relative;
+    top: -135px;
+    left: 10px;
+    text-align: center;
+    font-size:xx-large;
+    color: aliceblue;  
+    z-index: 2;
+}
+
+#green{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(12, 218, 149);
+    position: relative;
+    top:-260px;
+    left:140px;
+    text-align:center;
+    font-size:xx-large;
+    color: aliceblue;
+    z-index: 3;
+}
+
+
+

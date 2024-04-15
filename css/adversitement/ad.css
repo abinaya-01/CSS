@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+      color:orchid;
+      padding: 5px;
+      font-size: x-large;
+     
+}
+
+nav{
+    position:absolute;
+    top: 10px;
+    left: 980px;
+    text-decoration: none;
+    font-size:large;
+}
+nav a{
+    margin-left: 3opx;
+    text-decoration:none ;
+    padding: 4px;
+}
+body{
+    background-image: url("https://wallpaperaccess.com/full/1431673.jpg");
+      width:100%;
+      height:100vh;     
+       background-repeat:no-repeat ;
+      background-size: cover;
+}
+
+section h1{
+      position: relative;
+      top:200px;
+      left: 40px;
+      color:blue;
+      font-size: xx-large;
+      text-align: center;
+}
+
+section p{
+    width: 800px;
+    position: relative;
+    top: 220px;
+    left:510px;
+    text-align-last: center;
+    color:rgb(29, 27, 77);
+    font-size:large;
+    word-spacing: 6px;
+    text-align-last:ce;
+
+}
+section button{
+    position: relative;
+    top:260px;
+    left:710px;
+    width: 150px;
+    height: 30px;
+    color:white;
+    border-radius: 5px;
+    background-color:rgb(170, 51, 106);
+}

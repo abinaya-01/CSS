@@ -1,0 +1,21 @@
+.container{
+    border: 2 px solid black;
+    display: flex;
+    flex-direction: row;
+    background-color:lightgrey;
+}
+
+
+@media  (orientation:portrait){
+
+    .container{
+           margin-bottom: 5px;
+           background-color: rgb(255, 127, 127);
+           margin-left: 0;  
+           flex-direction: column;   
+           
+    }
+    .child h2{
+        text-align: center;
+    }
+}

@@ -1,0 +1,16 @@
+.container{
+    background-color: grey;
+    width: 90vw;
+    height: 100px;
+    display: flex;
+}
+
+.child{
+    /*width:100px;*/
+    background-color: aqua;
+    border: 1px solid black;
+    flex-basis: 100px;
+}
+
+
+/*max-width=80px flex direction:column/
